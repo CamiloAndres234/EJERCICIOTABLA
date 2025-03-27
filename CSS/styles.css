@@ -1,0 +1,238 @@
+body {
+    background: #1e1e1e; /* Un gris oscuro elegante */
+}
+
+/* Diseño de la barra superior */
+.contenido {
+    background: linear-gradient(to right, #424242, #1e1e1e); /* Degradado bonito */
+    padding: 15px 0; /* Espaciado interno */
+    border-radius: 200px; /* Bordes redondeados */
+    text-align: center; /* Centrar texto */
+    width: 100%; /* Ocupar todo el ancho */
+    margin: 0 auto; /* Centrar horizontalmente */
+    top: 0;
+    left: 0;
+    position: relative; /* Permite que se mueva con el scroll */
+}
+
+/* Estilo del menú */
+.contenido ul {
+    list-style: none; /* Elimina las viñetas */
+    padding: 0;
+    display: flex; /* Hace que los elementos estén en una fila */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 20px; /* Espaciado entre los elementos */
+}
+
+.contenido li {
+    margin: 0;
+}
+
+/* Estilo de los enlaces */
+.contenido a {
+    text-decoration: none; /* Sin subrayado */
+    font-size: 18px; /* Tamaño de letra adecuado */
+    font-weight: bold; /* Negrita */
+    color: white; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    display: inline-block; /* Que respete su contenido */
+    background: rgba(255, 255, 255, 0.2); /* Fondo semi-transparente */
+    border-radius: 20px; /* Bordes redondeados */
+    transition: all 0.3s ease-in-out; /* Animación */
+}
+
+.contenido a:hover {
+    background: rgba(255, 255, 255, 0.4); /* Color de fondo al pasar el mouse */
+    transform: scale(1.1); /* Efecto de agrandamiento */
+}
+
+/* Diseño de las diferentes secciones */
+section {
+    width: 70%; /* Ocupa el 70% del ancho de la pantalla */
+    margin: 30px auto; /* Centrado y separación entre secciones */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 15px; /* Bordes redondeados */
+}
+
+/* SECCIÓN DE CSS */
+#CSS {
+    text-align: center; /* Centrar texto */
+    background: linear-gradient(to right, #007bff, #00d4ff); /* Fondo con degradado */
+    color: white; /* Color del texto */
+}
+
+#CSS p, #a2 {
+    font-size: 24px; /* Tamaño de fuente fijo */
+    text-align: center; /* Centrar texto */
+}
+
+#a1 {
+    text-align: center; /* Centrar texto */
+    line-height: 0.9; /* Ajuste de la altura de línea */
+    font-size: 32px; /* Tamaño de fuente fijo */
+    
+}
+
+/* Diseño de la lista de CSS */
+#CSS ol li {
+    font-size: 18px; /* Tamaño de fuente fijo */
+    padding: 10px; /* Espaciado interno */
+    text-align: left; /* Alinea el texto de la lista a la izquierda */
+}
+
+#CSS b {
+    text-transform: uppercase; /* Todo en MAYÚSCULAS */
+}
+
+/* Diseño de la imagen */
+#CSS img, #JavaScript img, #Tabla_de_atributos_CSS img {
+    width: 200px; /* Ancho fijo */
+    height: auto; /* Altura se ajusta proporcionalmente */
+    object-fit: cover; /* Recorta la imagen manteniendo proporciones */
+}
+
+/* SECCIÓN DE JAVASCRIPT */
+#JavaScript {
+    background: linear-gradient(to right, #f7df1e, #ffae00); /* Fondo con degradado */
+    color: #333; /* Color del texto */
+    text-align: center; /* Centrar texto */
+}
+
+#JavaScript p, #a4 {
+    font-size: 24px; /* Tamaño de fuente fijo */
+    text-align: center; /* Centrar texto */
+}
+
+#a3 {
+    text-align: center; /* Centrar texto */
+    line-height: 1.2; /* Ajuste de la altura de línea */
+    font-size: 32px; /* Tamaño de fuente fijo */
+}
+
+#JavaScript ol li {
+    font-size: 18px; /* Tamaño de fuente fijo */
+    padding: 10px; /* Espaciado interno */
+    text-align: left; /* Alinea el texto de la lista a la izquierda */
+}
+
+#JavaScript b {
+    text-transform: uppercase; /* Todo en MAYÚSCULAS */
+}
+
+/* SECCIÓN DE LA TABLA */
+#Tabla_de_atributos_CSS {
+    background: linear-gradient(to right, #28a745, #34d058); /* Fondo con degradado */
+    color: white; /* Color del texto */
+    text-align: center; /* Centrar texto */
+}
+
+#Tabla_de_atributos_CSS p, #a5 {
+    font-size: 24px; /* Tamaño de fuente fijo */
+    text-align: center; /* Centrar texto */
+}
+
+/* Diseño de la tabla responsiva */
+.tabla-container {
+    width: 100%; /* Ancho completo */
+    overflow-x: auto; /* Permite desplazamiento horizontal si es necesario */
+}
+
+#Tabla_de_atributos_CSS table {
+    width: 50%; /* Ajuste automático al tamaño de la pantalla */
+    max-width: 800px; /* Tamaño máximo */
+    margin: auto; /* Centrado */
+    border-collapse: separate; /* Mantiene los bordes separados */
+    background: rgb(22, 116, 80); /* Color de fondo */
+    color: black; /* Color del texto */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Evita desbordes */
+}
+
+th, td {
+    padding: 15px; /* Espaciado interno */
+    text-align: center; /* Centrar contenido */
+    border-bottom: 1px solid #ddd; /* Borde inferior */
+}
+
+th {
+    background: #04301b; /* Color de fondo del encabezado */
+    color: white; /* Color del texto */
+}
+
+/*Diseño de los enlaces dentroi de la tabla*/
+#Tabla_de_atributos_CSS a {
+    text-decoration: none; /* Sin subrayado */
+    font-size: 18px; /* Tamaño de letra adecuado */
+    font-weight: bold; /* Negrita */
+    color: black; /* Texto negro */
+}
+
+tr:hover {
+    background: #107a15; /* Color de fondo al pasar el mouse */
+}
+
+/* Efecto de elevación al pasar el mouse */
+section:hover {
+    transform: scale(1.02); /* Aumenta ligeramente el tamaño */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+/* Ajustes en pantallas pequeñas */
+@media screen and (max-width: 600px) {
+    body {
+        padding: 5px; /*Reduce el espacio en los bordes*/
+    }
+    .contenido {
+        padding: 10px 0; /*Reduce el espaciado interno del menú */
+    }
+    .contenido ul {
+        flex-direction: column; /*Apila los elementos del menú en una columna */
+        gap: 10px; /*Menos espacio entre elementos*/
+    }
+
+    .contenido a {
+        font-size: 16px; /* Reduce el tamaño de la fuente en los enlaces */
+        padding: 8px 15px; /* Hace los botones más compactos */
+    }
+
+    section {
+        width: 95%; /*Ocupar casi todo el ancho en móviles */
+        padding: 15px; /*Menos relleno interno */
+    }
+
+    /*Ajuste de la tabla*/
+    .tabla-container {
+        width: 100%; /*Ocupar todo el ancho disponible*/
+        overflow-x: auto; /*Permite desplazamiento horizontal si es necesario*/
+    }
+
+    #Tabla_de_atributos_CSS table {
+        width: 100%; /*Que la tabla ocupe todo el ancho del contenedor*/
+        font-size: 12px; /*Reduce el tamaño del texto*/
+    }
+
+    th, td {
+        padding: 8px; /* Reduce el espaciado en móviles*/
+        text-align: left; /* Alinea el texto a la izquierda en móviles*/
+    }
+
+    /*Ajuste de imágenes*/
+    img {
+        max-width: 100%; /*Para que no sobresalgan del contenedor*/
+        height: auto; /*Mantiene la proporción*/
+    }
+
+    #Tabla_de_atributos_CSS img {
+        width: 80px; /*Reduce el tamaño de imágenes en la tabla*/
+    }
+
+    /*Ajuste de títulos y subtítulos*/
+    h1, h2, h3, p {
+        font-size: smaller; /*Reduce el tamaño general del texto*/
+    }
+}
+
+
+
+
+
